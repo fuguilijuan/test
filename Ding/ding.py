@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.dirname(__file__).replace('/', '\\'))  # 集成到CICD时用到
 
 url = "https://oapi.dingtalk.com/robot/send?access_token" \
-      "=b1785c0fc03b862c95b019d02d00ae7f705241badbc6bb6fa28bbdd6da3eff6b "
+      "=*** "
 header = {
     "Content-Type": "application/json"
 }
