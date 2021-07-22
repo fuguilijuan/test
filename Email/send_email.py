@@ -15,10 +15,10 @@ def send_mail():
     with open(report_path,'rb') as f:
         report=f.read()
     smtpserver = 'smtp.mxhichina.com'  # 邮件服务器
-    sender = 'fugui@gmrz-bj.com'  # 发件人邮箱
-    # pwd = 'iiknhgrzjlezcahh'  # 授权码
-    pwd = '14559233fF'
-    receiver = ['fugui@gmrz-bj.com']  # 接收人邮箱
+    sender = '***'  # 发件人邮箱
+    # pwd = '***'  # 授权码
+    pwd = '***'
+    receiver = ['***']  # 接收人邮箱
     subject = u'UAP自动化测试报告'  # 邮件标题
     msg = MIMEMultipart()
     msg.attach(MIMEText('邮件正文', _subtype='txt', _charset='utf-8'))
