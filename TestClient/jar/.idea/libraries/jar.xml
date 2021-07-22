@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/uaf-jolt-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/uascore-np.jar!/" />
+      <root url="jar://$PROJECT_DIR$/log4j-core-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jackson-core-asl-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jackson-mapper-asl-1.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/guice-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bcprov-jdk15on-1.51.jar!/" />
+      <root url="jar://$PROJECT_DIR$/log4j-slf4j-impl-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/log4j-api-2.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/guava-16.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpclient-4.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/uaf-test-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

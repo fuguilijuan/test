@@ -1,0 +1,174 @@
+
+html, body, h1, form, fieldset, legend, ol, li {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/*定义<body>标记样式*/
+
+body {
+
+    background: #e3ebc3;
+
+    color: #111111;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+    padding-left: 20px;
+}
+
+/*定义表单样式*/
+
+form {
+    /*background: #9cbc2c;*/
+
+    -webkit-border-radius: 5px;
+
+    border-radius: 5px;
+
+    padding: 20px;
+
+    width: 400px;
+
+    margin:auto;
+
+}
+
+form fieldset {
+
+    border: none;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+ ol li {
+
+    background: #b9cf6a;
+
+    background: rgba(255, 255, 255, .3);
+
+    border-color: #e3ebc3;
+
+    border-color: rgba(255, 255, 255, .6);
+
+    border-style: solid;
+
+    border-width: 2px;
+
+    -webkit-border-radius: 5px;
+
+    line-height: 30px;
+
+    list-style: none;
+
+    padding: 5px 10px;
+
+    margin-bottom: 2px;
+
+}
+
+ ol ol li {
+
+    background: none;
+
+    border: none;
+
+    float: left;
+
+}
+
+ label {
+
+    float: left;
+
+    font-size: 13px;
+
+    width: 110px;
+
+}
+
+fieldset fieldset label {
+
+    background: none no-repeat left 50%;
+
+    line-height: 20px;
+
+    padding: 0 0 0 30px;
+
+    width: auto;
+
+}
+
+
+input:not([type=submit]):focus, form#payment textarea:focus {
+
+    background: #eaeaea;
+
+    border: #F00 solid 1px;
+
+}
+
+input[type=radio] {
+
+    float: left;
+
+    margin-right: 5px;
+}
+/*ol li input{*/
+/*     margin-left: 25%;*/
+/*}*/
+
+button{
+    width: 400px;
+    min-height: 20px;
+    display: block;
+    background-color: #51a9f18c;
+    border: 1px none #3762bc;
+    color: black;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.resu{
+    background: rgba(255, 255, 255, .3);
+    width: 400px;
+    margin:0 auto;
+    height: 110px;
+
+}
+.resu table{
+    height: 80px;
+}
+.resu table th {
+    width: 150px;
+    color: red;
+}
+.resu table td{
+    text-align: center;
+}
+
+.shadow{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:998;
+    /*background-color:#000;*/
+    opacity:0.6;
+    display:none;
+}
+.load_gif{
+    //其他属性
+    z-index:999;
+}

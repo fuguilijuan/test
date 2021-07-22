@@ -1,0 +1,44 @@
+html,body{
+    /*background: yellowgreen;*/
+    margin:0;
+    height:99.6%;
+    overflow-y: hidden
+}
+
+.menu_head {
+    height: 47px;
+    line-height: 47px;
+    padding-left: 38px;
+    font-size: 14px;
+    color: #525252;
+    cursor: pointer;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    margin: 0;
+    font-weight: bold;
+    background: #51a9f18c;
+}
+
+.menu_nva {
+    width: 15%;
+    height: 100%;
+    line-height: 38px;
+    border-left: 1px solid #51a9f18c;
+    /*background: greenyellow;*/
+    border-right: 1px solid #51a9f18c;
+    border-bottom: 1px solid #51a9f18c;
+    float: left;
+}
+.menu_nva a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 38px;
+    color: #777777;
+    background: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #51a9f18c;
+}
+.menu_nva a:hover {
+    text-decoration: none;
+}
